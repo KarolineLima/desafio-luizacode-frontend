@@ -1,0 +1,17 @@
+version: '3'
+services:
+  express:
+    image: desafio-magalu-backend
+    ports:
+        - "3080:3080"
+    container_name: desafio-magalu-backend
+  nextjs-ui:
+    build:
+      context: .
+    ports:
+      - "3000:3000"
+    container_name: desafio-magalu-frontend
+    stdin_open: true
+    volumes:
+       - ./:/usr/src/desafio-magalu-frontend
+       - /usr/src/desafio-magalu-frontend/node_modules
