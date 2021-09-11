@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > div > div {
+    padding: 2px 0px !important;
+}
+
+.slider {
+    width: 94%;
+    margin: 15px 0px;
+}
+
+.card {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
