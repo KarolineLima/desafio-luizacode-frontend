@@ -1,0 +1,15 @@
+.footerPages {
+    background: #2B3A41;
+    width: 100%;
+    height: 323px;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+  
+.footerAllmessage {
+    color: #A3B8BF;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}

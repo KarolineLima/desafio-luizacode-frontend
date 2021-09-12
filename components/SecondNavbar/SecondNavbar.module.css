@@ -1,0 +1,27 @@
+.containerNavBarSecond {
+    background: #2B3A41;
+    width: auto;
+    height: 42px;
+    color: #A3B8BF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+  
+ .linkNavBar {
+    width: 65px;
+    height: 21px;
+    font-family:  Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+  
+}
+  
+.bottomNav {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    
+}
