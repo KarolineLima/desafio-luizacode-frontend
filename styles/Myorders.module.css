@@ -1,0 +1,14 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.container {
+    max-width: 1440px;
+    background: #fff;
+    width: 100%;
+    padding-bottom: 40px;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
