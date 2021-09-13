@@ -1,0 +1,32 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    max-width: 1440px;
+    background: #fff;
+    width: 100%;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.propertyManagement{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    height: 200px;
+}
+.information{
+    margin-right:300px;
+    width:200px;
+    text-align:left;
+    margin-left:0;
+}
+.line{
+    width:200px;
+    text-align:left;
+    margin-left:0;
+}
